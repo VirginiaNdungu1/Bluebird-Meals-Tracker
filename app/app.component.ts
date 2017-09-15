@@ -15,5 +15,9 @@ import { Component } from '@angular/core';
 })
 
 export class AppComponent {
-
+  // public meals: Meal[] = [
+  //   new Meal("Learn Kung Fu", 1),
+  //   new Meal("Go swimming", 2),
+  //   new Meal("Create a To-Do List App",3)
+  // ];
 }
