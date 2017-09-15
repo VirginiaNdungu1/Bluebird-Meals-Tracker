@@ -1,0 +1,22 @@
+{
+  "name": "bluebirds-meal-tracker",
+  "description": "An application that keeps track of the quality of meals. Let's Stay Healthy!!",
+  "main": "index.js",
+  "authors": [
+    "Virginia Ndung'u"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  }
+}
