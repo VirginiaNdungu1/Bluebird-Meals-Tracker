@@ -9,7 +9,7 @@
       <h1>Bluebirds Meal Tracker</h1>
   </div>
   <div class="well">
-  <create-meal></create-meal>
+  <create-meal (newMealSender) = "addMeal($event)"></create-meal>
   </div>
   <div class="well">
     <meals-list [childMealList]="meals"></meals-list>
@@ -25,4 +25,7 @@
     new Meal("Lunch", "Mashed Potatoes with Chicken", 20),
     new Meal("Dinner", "Ugali with Spinach", 10)
   ];
+  addMeal(newAddedMeal: Meal){
+    this.meals.push(newAddedMeal);
   }
+}
