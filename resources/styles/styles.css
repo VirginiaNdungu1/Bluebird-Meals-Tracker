@@ -9,3 +9,8 @@ h2 {
 h3 {
   color: #CB4335;
 }
+
+button {
+  color: white;
+  background-color: teal;
+}
