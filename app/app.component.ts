@@ -9,11 +9,12 @@
       <h1>Bluebirds Meal Tracker</h1>
   </div>
   <div class="well">
-    <meals-list [childMealList]="meals"></meals-list>
-  </div>
-  <div class="well">
   <create-meal></create-meal>
   </div>
+  <div class="well">
+    <meals-list [childMealList]="meals"></meals-list>
+  </div>
+
     </div>
     `
   })
