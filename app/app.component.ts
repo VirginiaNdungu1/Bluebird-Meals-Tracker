@@ -12,12 +12,17 @@
 
   </div>
 
-  <create-meal (newMealSender) = "addMeal($event)"></create-meal>
+  <create-meal
+  [childMealToAdd]= "mealToAdd"
+  (newMealSender) = "addMeal($event)"
+
+  ></create-meal>
 
   <div class="well">
     <meals-list
     [childMealList]="meals"
-      (clickMealSender) = "showDetails($event)"
+    (clickMealSender) = "showDetails($event)"
+    (clickCreateMealFormSender) = "displayCreateMeal()"
       ></meals-list>
   </div>
 
@@ -42,14 +47,17 @@
   addMeal(newAddedMeal: Meal){
     this.meals.push(newAddedMeal);
   }
+
 selectedMeal: Meal = null;
 showDetails(mealToEdit: Meal){
   this.selectedMeal = mealToEdit;
 }
+
   onEditMealBtn(){
     this.selectedMeal = null;
   }
+mealToAdd: Meal = null;
   displayCreateMeal(){
-
+this.mealToAdd = null;
   }
 }
