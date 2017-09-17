@@ -32,6 +32,7 @@
     new Meal("Lunch", "Mashed Potatoes with Chicken", 20),
     new Meal("Dinner", "Ugali with Spinach", 10)
   ];
+  selectedMeal: Meal = null;
   addMeal(newAddedMeal: Meal){
     this.meals.push(newAddedMeal);
   }
