@@ -1,4 +1,4 @@
-  import { Component } from '@angular/core';
+  import { Component, Output, EventEmitter } from '@angular/core';
   import { Meal } from './meal.model';
 
   @Component({
@@ -6,15 +6,22 @@
     template: `
     <div class="container">
     <div class="well">
+    <div class="heading">
       <h1>Bluebirds Meal Tracker</h1>
-  </div>
-  <div class="well">
-  <create-meal (newMealSender) = "addMeal($event)"></create-meal>
-  </div>
-  <div class="well">
-    <meals-list [childMealList]="meals"></meals-list>
+    </div>
+
   </div>
 
+  <create-meal (newMealSender) = "addMeal($event)"></create-meal>
+
+  <div class="well">
+    <meals-list [childMealList]="meals"
+      (createNewMeal) = "displayCreateMeal()">
+    </meals-list>
+  </div>
+  <div class="well">
+    <edit-meals></edit-meals>
+  </div>
     </div>
     `
   })
@@ -27,5 +34,8 @@
   ];
   addMeal(newAddedMeal: Meal){
     this.meals.push(newAddedMeal);
+  }
+  displayCreateMeal(){
+
   }
 }

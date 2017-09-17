@@ -14,3 +14,31 @@ button {
   color: white;
   background-color: teal;
 }
+
+.heading {
+  text-align: center;
+}
+
+displayMealHeading {
+  position: relative;
+  float: left;
+  margin: 45px auto;
+}
+
+.addNewMeal {
+  position: relative;
+  float: none;
+  margin: 0px auto;
+  margin-left: 80%;
+  text-align: center;
+}
+
+.addNewMeal button {
+  float: none;
+  display: block-inline;
+  width: 200px;
+  position: relative;
+  border: 0px red solid;
+  display: flex;
+  text-align: center;
+}
