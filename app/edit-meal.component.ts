@@ -20,7 +20,7 @@ import { Meal } from './meal.model';
 </div>
 <button type ="submit" class="btn-lg" autofocus (click)="editBtnClicked()"
 >EDIT MEAL</button>
-
+<button type="button" class="btn-lg" (click)="cancelEditMealBtn()">Cancel Edit</button>
 </div>
   `
 })
@@ -30,5 +30,8 @@ export class EditMealComponent{
 @Output () editBtnClickedSender = new EventEmitter();
 editBtnClicked(){
   this.editBtnClickedSender.emit();
+}
+cancelEditMealBtn(){
+  this.childSelectedMeal=null;
 }
 }
