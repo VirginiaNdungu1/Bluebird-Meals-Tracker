@@ -35,10 +35,10 @@
 
   export class AppComponent {
   public meals: Meal[]=[
-    new Meal("Breakfast", "Tea and bacon", 60),
-    new Meal("Brunch", "Fruit and yoghurt", 20),
-    new Meal("Lunch", "Mashed Potatoes with Chicken", 80),
-    new Meal("Dinner", "Ugali with Spinach", 40)
+    new Meal("Breakfast", "Tea and bacon", 600),
+    new Meal("Brunch", "Fruit and yoghurt", 200),
+    new Meal("Lunch", "Mashed Potatoes with Chicken", 800),
+    new Meal("Dinner", "Ugali with Spinach", 400)
   ];
 
   //new meal
