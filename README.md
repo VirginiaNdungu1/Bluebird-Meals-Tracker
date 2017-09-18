@@ -2,10 +2,10 @@
 
 An application that keeps track of the quality of meals. Let's Stay Healthy!!
 
-# BY [Virginia Ndung'u](https://github.com/VirginiaNdungu1)
+# By [Virginia Ndung'u](https://github.com/VirginiaNdungu1)
 
 # Setup/ Installations
-## Access the apllication locally:
+## Access the application locally:
 $ git clone
 
 1. $ npm install
