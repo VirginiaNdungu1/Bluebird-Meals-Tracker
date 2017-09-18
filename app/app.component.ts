@@ -13,16 +13,13 @@
   </div>
 
   <create-meal
-  [childMealToAdd]= "mealToAdd"
   (newMealSender) = "addMeal($event)"
-
   ></create-meal>
 
   <div class="well">
     <meals-list
     [childMealList]="meals"
     (clickMealSender) = "showDetails($event)"
-    (clickCreateMealFormSender) = "displayCreateMeal()"
       ></meals-list>
   </div>
 
@@ -38,9 +35,10 @@
 
   export class AppComponent {
   public meals: Meal[]=[
-    new Meal("Breakfast", "Tea and bacon", 40),
-    new Meal("Lunch", "Mashed Potatoes with Chicken", 20),
-    new Meal("Dinner", "Ugali with Spinach", 10)
+    new Meal("Breakfast", "Tea and bacon", 60),
+    new Meal("Brunch", "Fruit and yoghurt", 20),
+    new Meal("Lunch", "Mashed Potatoes with Chicken", 80),
+    new Meal("Dinner", "Ugali with Spinach", 40)
   ];
 
   //new meal
@@ -56,8 +54,6 @@ showDetails(mealToEdit: Meal){
   onEditMealBtn(){
     this.selectedMeal = null;
   }
-mealToAdd: Meal = null;
-  displayCreateMeal(){
-this.mealToAdd = null;
-  }
+
+
 }
