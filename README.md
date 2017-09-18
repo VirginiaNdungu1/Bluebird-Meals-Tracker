@@ -8,10 +8,11 @@ An application that keeps track of the quality of meals. Let's Stay Healthy!!
 # Access the apllication locally:
 
 $ git clone
-$ npm install
-$ bower install
-$ gulp build
-$ gulp serve
+
+1. $ npm install
+2. $ bower install
+3. $ gulp build
+4. $ gulp serve
 
 # Bugs
 No Known Bugs
