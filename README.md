@@ -26,9 +26,10 @@ This is a web app with the following features:
 
 # Technologies Used
 
-HTML
-Css
-AngularJS
+* HTML
+* CSS
+* Bootstrap
+* AngularJS
 
 ## Click here [Bluebirds Meal Tracker](https://github.com/VirginiaNdungu1/Bluebird-Meals-Tracker) to view the Bluebirds Meal Tracker.
 
