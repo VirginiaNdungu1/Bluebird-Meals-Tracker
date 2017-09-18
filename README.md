@@ -1,17 +1,17 @@
 # Bluebird-Meals-Tracker
 
-An application that keeps track of the quality of meals. Let's Stay Healthy!!
+#### An application that keeps track of the quality of meals. Let's Stay Healthy!!
 
 # By [Virginia Ndung'u](https://github.com/VirginiaNdungu1)
 
 # Setup/ Installations
-## Access the application locally:
-$ git clone
+### Access the application locally:
 
-1. $ npm install
-2. $ bower install
-3. $ gulp build
-4. $ gulp serve
+1. $ git clone https://github.com/VirginiaNdungu1/Bluebird-Meals-Tracker/
+2. $ npm install
+3. $ bower install
+4. $ gulp build
+5. $ gulp serve
 
 # Bugs
 No Known Bugs
@@ -30,7 +30,10 @@ This is a web app with the following features:
 * CSS
 * Bootstrap
 * AngularJS
+* Typescript
+* Node Modules
+* Bower Modules
 
-## Click here [Bluebirds Meal Tracker](https://github.com/VirginiaNdungu1/Bluebird-Meals-Tracker) to view the Bluebirds Meal Tracker.
+### Click here [Bluebirds Meal Tracker](https://github.com/VirginiaNdungu1/Bluebird-Meals-Tracker) to view the Bluebirds Meal Tracker.
 
 ## MIT (c) 2017 [Virginia Ndung'u](https://github.com/VirginiaNdungu1/Bluebird-Meals-Tracker)
